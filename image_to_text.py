@@ -25,6 +25,6 @@ def convert_image_to_text():
 
 
 if __name__ == "__main__":
-    # start he development server
+    # server will run on localhost with port 3000
     app.run(debug=True, host='localhost', port=3000)
 
